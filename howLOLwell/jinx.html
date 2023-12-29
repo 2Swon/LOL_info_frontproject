@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+
+
+    <style>
+        .white{
+            
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    
+    <!-- Page Preloder -->
+	<div id="preloder">
+		<div class="loader"></div>
+	</div>
+
+    <!-- Header section -->
+	<header class="header-section">
+		<div class="header-warp">
+			<div class="header-bar-warp d-flex">
+				<!-- site logo -->
+				<a href="https://www.leagueoflegends.com/ko-kr/" class="site-logo">
+					<img src="./img/icons/LOL.svg" alt="">
+				</a>
+				<nav class="top-nav-area w-100"> 
+					<!-- Menu -->
+					<div class="user-panel">
+						<a href="about.html"><img src="./img/icons/about.png" width="20" height="20"> About</a><!-- 사람 아이콘-->
+					</div>
+					<ul class="main-menu primary-menu">
+						<li><a href="index.html"><img src="./img/icons/home.png" width="20" height="20"> Home</a></li> <!--집모양아이콘-->
+						<li><a href="lane.html"><img src="./img/icons/lane.png"width="20" height="20"> Lane</a>
+							<ul class="sub-menu">
+								<li><a href="top.html"><img src="./img/icons/top.png" width="20" height="20"> Top</a></li>
+								<li><a href="junggle.html"><img src="./img/icons/junggle.png" width="20" height="20"> Jungle</a></li>
+								<li><a href="mid.html"><img src="./img/icons/mid.png" width="20" height="20"> Mid</a></li>
+								<li><a href="bottom.html"><img src="./img/icons/bottom.png" width="20" height="20"> Bottom</a></li>
+								<li><a href="support.html"><img src="./img/icons/support.png" width="20" height="20"> Support</a></li>
+							</ul>
+						</li>
+						<li><a href="https://www.op.gg/"><img src="./img/icons/opgg.svg" width="25" height="25"> 전적검색</a></li><!--A 그려진 아이콘-->
+					</ul>
+				</nav>
+			</div>
+		</div>
+        <br>
+        <div class="header-warp">
+			<div class="header-bar-warp d-flex">
+				<nav class="top-nav-area w-100"> 
+					<!-- Menu -->
+					<ul class="main-menu primary-menu">
+						<li><a href="#skill">Skill</a></li>
+						<li><a href="#item">Item</a></li>
+						<li><a href="#combo">Combo</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</header>
+	<!-- Header section end -->
+    
+    <!-- Hero section -->
+	
+	<section class="hero-section overflow-hidden">
+		<div class="hero-slider owl-carousel">
+			<div class="hero-item set-bg d-flex align-items-center justify-content-center text-center" data-setbg="./img/champions/jinx/champion.png">
+				<div class="container">
+					<h2>징크스</h2>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Hero section end-->
+
+
+    <!-- ##### Skill Area Start ##### -->
+    <section class="hero--area section-padding-80" id="skill">
+        <div class="page-info"><br><h2>Skill</h2><br></div>
+        <div class="container">
+            <div class="row no-gutters">
+                <!-- 왼쪽 메뉴-->
+                <div class="col-12 col-md-5 col-lg-3">
+                    <ul class="nav vizew-nav-tab" role="tablist">
+                        <!--패시브 메뉴-->
+                        <li class="nav-item division5">
+                            <a class="nav-link active" id="post-1-tab" data-toggle="pill" href="#post-1" role="tab" aria-controls="post-1" aria-selected="true">
+                                <div class="single-blog-post style-2 d-flex align-items-center">
+                                    <div class="post-thumbnail"><img src="./img/champions/jinx/징크스_p.png" alt=""></div><!--스킬경로-->
+                                    <div class="post-content"><h6 class="post-title">Passive<br>신난다!</h6></div><!--스킬이름-->
+                                </div>
+                            </a>
+                        </li>
+                        <!--Q스킬부분-->
+                        <li class="nav-item division5">
+                            <a class="nav-link" id="post-2-tab" data-toggle="pill" href="#post-2" role="tab" aria-controls="post-2" aria-selected="false">
+                                <div class="single-blog-post style-2 d-flex align-items-center">
+                                    <div class="post-thumbnail"><img src="./img/champions/jinx/징크스_q.png" alt=""></div><!--스킬경로-->
+                                    <div class="post-content"><h6 class="post-title">Q<br>휘릭휘릭!<h6></div><!--스킬이름-->
+                                </div>
+                            </a>
+                        </li>
+                        <!--W스킬부분-->
+                        <li class="nav-item division5">
+                            <a class="nav-link" id="post-3-tab" data-toggle="pill" href="#post-3" role="tab" aria-controls="post-3" aria-selected="false">
+                                <div class="single-blog-post style-2 d-flex align-items-center">
+                                    <div class="post-thumbnail"><img src="./img/champions/jinx/징크스_w.png" alt=""></div><!--스킬경로-->
+                                    <div class="post-content"><h6 class="post-title">W<br>빠직!</h6></div><!--스킬이름-->
+                                </div>
+                            </a>
+                        </li>
+                        <!--E스킬부분-->
+                        <li class="nav-item division5">
+                            <a class="nav-link" id="post-4-tab" data-toggle="pill" href="#post-4" role="tab" aria-controls="post-4" aria-selected="false">
+                                <div class="single-blog-post style-2 d-flex align-items-center">
+                                    <div class="post-thumbnail"><img src="./img/champions/jinx/징크스_e.png" alt=""></div><!--스킬경로-->
+                                    <div class="post-content"><h6 class="post-title">E<br>와작와작 뻥!</h6> </div><!--스킬이름-->
+                                </div>
+                            </a>
+                        </li>
+                        <!--R스킬부분-->
+                        <li class="nav-item division5">
+                            <a class="nav-link" id="post-5-tab" data-toggle="pill" href="#post-5" role="tab" aria-controls="post-5" aria-selected="false">
+                                <div class="single-blog-post style-2 d-flex align-items-center">
+                                    <div class="post-thumbnail"><img src="./img/champions/jinx/징크스_r.png" alt=""></div><!--스킬경로-->
+                                    <div class="post-content"><h6 class="post-title">R<br>초강력 초토화 로켓!</h6></div><!--스킬이름-->
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <!--오른쪽 메뉴-->
+                <div class="col-12 col-md-7 col-lg-9">
+                    <div class="tab-content">
+                        <!--패시브 동영상부분-->
+                        <div class="tab-pane fade show active" id="post-1" role="tabpanel" aria-labelledby="post-1-tab">
+                            <div class="single-feature-post video-post" >
+                                <ul class="main-menu">
+                                    <li>
+                                        <p class="post-cata">Passive-신난다!</p>
+                                        <ul class="sub-menu">
+                                            <!--스킬상세설명 사진 src 내에 넣으면 됨-->
+                                            <li><img src="./skills/원딜/징크스p설명.PNG"></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                                <video width=100% height=90% controls="1">
+                                    <!--영상주소부분 패시브 영상 없는 경우 아래 코드를 삭제하고 p태그를 이용해 영상이 없습니다. 하면됨-->
+                                    <source src="https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0222/ability_0222_P1.webm"type="video/webm">영상이 없습니다.
+                                </video>
+                            </div>
+                        </div>
+                        <!--Q스킬동영상부분-->
+                        <div class="tab-pane fade" id="post-2" role="tabpanel" aria-labelledby="post-2-tab">
+                            <!-- Single Feature Post -->
+                            <div class="single-feature-post video-post">
+                                <ul class="main-menu">
+                                    <li>
+                                        <p class="post-cata">Q-휘릭휘릭!</p>
+                                        <ul class="sub-menu">
+                                            <!--스킬상세설명 사진 src 내에 넣으면 됨-->
+                                            <li><img src="./skills/원딜/징크스q설명.PNG"></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                                <video width=100% height=90% controls="1">
+                                    <!--영상주소부분-->
+                                    <source src="https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0222/ability_0222_Q1.webm"type="video/webm">영상이 없습니다.
+                                </video>
+                            </div>
+                        </div>
+                        <!--W스킬동영상부분-->
+                        <div class="tab-pane fade" id="post-3" role="tabpanel" aria-labelledby="post-3-tab">
+                            <div class="single-feature-post video-post">
+                                <ul class="main-menu">
+                                    <li>
+                                        <p class="post-cata">W-빠직!</p>
+                                        <ul class="sub-menu">
+                                            <!--스킬상세설명 사진 src 내에 넣으면 됨-->
+                                            <li><img src="./skills/원딜/징크스w설명.PNG"></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                                <video width=100% height=90% controls="1">
+                                    <!--영상주소부분-->
+                                    <source src="https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0222/ability_0222_W1.webm"type="video/webm">영상이 없습니다.
+                                </video>
+                            </div>
+                        </div>
+                        <!--E스킬동영상부분-->
+                        <div class="tab-pane fade" id="post-4" role="tabpanel" aria-labelledby="post-4-tab">
+                            <div class="single-feature-post video-post">
+                                <ul class="main-menu">
+                                    <li>
+                                        <p class="post-cata">E-와작와작 뻥!</p>
+                                        <ul class="sub-menu">
+                                            <!--스킬상세설명 사진 src 내에 넣으면 됨-->
+                                            <li><img src="./skills/원딜/징크스e설명.PNG"></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                                <video width=100% height=90% controls="1">
+                                    <!--영상주소부분-->
+                                    <source src="https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0222/ability_0222_E1.webm"type="video/webm">영상이 없습니다.
+                                </video>
+                            </div>
+                        </div>
+                        <!--R스킬동영상부분-->
+                        <div class="tab-pane fade" id="post-5" role="tabpanel" aria-labelledby="post-5-tab">
+                            <div class="single-feature-post video-post">
+                                <ul class="main-menu">
+                                    <li>
+                                        <p class="post-cata">R-초강력 초토화 로켓!</p>
+                                        <ul class="sub-menu">
+                                            <!--스킬상세설명 사진 src 내에 넣으면 됨-->
+                                            <li><img src="./skills/원딜/징크스궁설명.PNG"></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                                <video width=100% height=90% controls="1">
+                                    <!--영상주소부분-->
+                                    <source src="https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0222/ability_0222_R1.webm"type="video/webm">영상이 없습니다.
+                                </video>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ##### Skill Area End ##### -->
+
+ <!-- Item section -->
+ <section class="hero--area section-padding-80" id="item">
+    <div class="page-info"><br><h2>Item</h2><br></div>
+    <div class="header-warp">
+        <div class="header-bar-warp d-flex">
+            <nav class="top-nav-area w-100"> 
+                <ul class="main-menu primary-menu">
+                    <li>
+                        <img src="./img/items/craken.png"width="50" height="50"> 
+                        <h5 class="white">크라켄 학살자</h5>
+                        <ul class="sub-menu">
+                            <li><img src="./img/items/크라켄설명.png"></li>
+                        </ul>
+                    </li>
+                    <li><h2>   </h2></li>
+                    <li>
+                        <img src="./img/items/goyeonpo.png"width="50" height="50"> 
+                        <h5 class="white">고속 연사포 </h5>
+                        <ul class="sub-menu">
+                            <li><img src="./img/items/고연포설명.png"></li>
+                        </ul>
+                    </li>
+                    <li><h2>   </h2></li>
+                    <li>
+                        <img src="./img/items/moodae.png"width="50" height="50"> 
+                        <h5 class="white">무한의 대검 </h5>
+                        <ul class="sub-menu">
+                            <li><img src="./img/items/무대설명.png"></li>
+                        </ul>
+                    </li>
+                    <li><h2>   </h2></li>
+                    <li>
+                        <img src="./img/items/paendaen.png"width="50" height="50"> 
+                        <h5 class="white">유령 무희 </h5>
+                        <ul class="sub-menu">
+                            <li><img src="./img/items/팬댄설명.png"></li>
+                        </ul>
+                    </li>
+                    <li><h2>   </h2></li>
+                    <li>
+                        <img src="./img/items/dominic.png"width="50" height="50"> 
+                        <h5 class="white">도미닉 경의 인사 </h5>
+                        <ul class="sub-menu">
+                            <li><img src="./img/items/도미닉설명.png"></li>
+                        </ul>
+                    </li>
+                    <li><h2>   </h2></li>
+                    <li>
+                        <img src="./img/items/광전사.png"width="50" height="50"> 
+                        <h5 class="white">광전사의 군화 </h5>
+                        <ul class="sub-menu">
+                            <li><img src="./img/items/광전사설명.png"></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</section>
+<!-- Item section end -->
+
+
+     <!-- ##### Combo Area Start ##### -->
+     <section class="hero--area section-padding-80" id="combo">
+        <div class="page-info">
+            <h2>Combo</h2><br>
+        <p>콤보영상이 없습니다.</p>
+    </div>
+    </section>
+    <!-- ##### Combo Area End ##### -->
+
+    <!-- Footer section -->
+	<footer class="footer-section">
+		<div class="container">
+			<ul class="main-menu primary-menu">
+				<li><a href="index.html"><img src="./img/icons/home.png" width="20" height="20"> Home</a></li> <!--집모양아이콘-->
+				<li><a href="lane.html"><img src="./img/icons/lane.png"width="20" height="20"> Lane</a>
+					<ul class="sub-menu">
+						<li><a href="top.html"><img src="./img/icons/top.png" width="20" height="20"> Top</a></li>
+						<li><a href="junggle.html"><img src="./img/icons/junggle.png" width="20" height="20"> Jungle</a></li>
+						<li><a href="mid.html"><img src="./img/icons/mid.png" width="20" height="20"> Mid</a></li>
+						<li><a href="bottom.html"><img src="./img/icons/bottom.png" width="20" height="20"> Bottom</a></li>
+						<li><a href="support.html"><img src="./img/icons/support.png" width="20" height="20"> Support</a></li>
+					</ul>
+				</li>
+				<li><a href="https://www.op.gg/"><img src="./img/icons/opgg.svg" width="20" height="20"> 전적검색</a></li><!--A 그려진 아이콘-->
+				<li><a href="about.html"><img src="./img/icons/about.png" width="20" height="20"> About</a><!-- 사람 아이콘-->
+			</ul>
+			<div class="copyright"> PreF 2022 @ All rights reserved</div>
+		</div>
+	</footer>
+	<!-- Footer section end -->
+
+    <!-- ##### All Javascript Script ##### -->
+    <!-- jQuery-2.2.4 js -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <!-- Popper js -->
+    <script src="js/popper.min.js"></script>
+    <!-- Bootstrap js -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- All Plugins js -->
+    <script src="js/plugins.js"></script>
+    <!-- Active js -->
+    <script src="js/active.js"></script>
+
+    <!--====== Javascripts & Jquery ======-->
+	<script src="js/jquery.slicknav.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/jquery.sticky-sidebar.min.js"></script>
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+
+</html>
