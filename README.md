@@ -8,4 +8,5 @@
 <img src="https://github.com/2Swon/LOL_info_frontproject/tree/main/howLOLwell/img/3.png" alt="1" style="max-width: 100%;"><br>
 <img src="https://github.com/2Swon/LOL_info_frontproject/tree/main/howLOLwell/img/4.png" alt="1" style="max-width: 100%;"><br>
 <img src="https://github.com/2Swon/LOL_info_frontproject/tree/main/howLOLwell/img/5.png" alt="1" style="max-width: 100%;">
-<img src="https://github.com/2Swon/LOL_info_frontproject/tree/main/howLOLwell/img/1.png">
+<img src="[https://github.com/2Swon/LOL_info_frontproject/tree/main/howLOLwell/img/1.png](https://github.com/2Swon/LOL_info_frontproject/blob/main/howLOLwell/img/1.png)https://github.com/2Swon/LOL_info_frontproject/blob/main/howLOLwell/img/1.png">
+https://github.com/2Swon/LOL_info_frontproject/blob/main/howLOLwell/img/1.png
