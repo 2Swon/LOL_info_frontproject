@@ -9,5 +9,4 @@
 <img src="https://raw.githubusercontent.com/2Swon/LOL_info_frontproject/main/howLOLwell/img/3.png" alt="1" style="max-width: 100%;"><br>
 <img src="https://raw.githubusercontent.com/2Swon/LOL_info_frontproject/main/howLOLwell/img/4.png" alt="1" style="max-width: 100%;"><br>
 <img src="https://raw.githubusercontent.com/2Swon/LOL_info_frontproject/main/howLOLwell/img/5.png" alt="1" style="max-width: 100%;"><br>
-<img src="https://raw.githubusercontent.com/2Swon/LOL_info_frontproject/main/howLOLwell/img/6.png" alt="1" style="max-width: 100%;"><br>
 
